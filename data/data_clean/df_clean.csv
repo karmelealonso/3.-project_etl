@@ -1,4 +1,4 @@
-sexo,edad,estudios,clase_social,ejercicio,dieta_mediterranea,tabaco,altura,peso,imc,colesterol,ct,glucemia,gluc
+sexo,edad,estudios,clase_social,ejercicio,dieta_mediterranea,consumo_tabaco,altura,peso,imc,colesterol,ct,glucemia,gluc
 mujer,57,secundarios,III,si,no,no,166.0,62.0,22.5,185,normal,84,normal
 hombre,28,primarios,III,si,si,no,181.5,82.0,24.9,197,normal,62,normal
 hombre,25,universitarios,I,no,no,no,177.0,69.0,22.0,229,limitrofe,83,normal
