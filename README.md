@@ -1,6 +1,6 @@
 # 3.-Proyecto de ETL: Relación entre algunas variables sociodemográficas con la Resistencia a la Insulina dentro de la población española.
 
-
+![](https://github.com/karmelealonso/3.-project_etl/blob/main/imagenes/Mecanismo_fisiopatologico_de_RI.png)
 
 # 1. Introducción.
 La Resistencia a la Insulina (RI) es un problema de salud de creciente importancia en la sociedad actual. Su impacto se hace evidente en la salud y el bienestar de las personas, ya que está estrechamente relacionado con enfermedades crónicas, como la diabetes tipo 2, que afecta a un número significativo de individuos en todo el mundo. El estudio de la RI y sus factores desencadenantes se ha vuelto esencial, ya que puede desempeñar un papel crucial tanto en la prevención como en el tratamiento de estas enfermedades.
@@ -29,6 +29,9 @@ El primer DataFrame utilizado en el estudio consiste en un archivo CSV que conti
 
 - Clase III: Comprende a trabajadores no cualificados.
 
+![](https://github.com/karmelealonso/3.-project_etl/blob/main/imagenes/df_clean_imagenes/df_clean.png)
+
+
 **3.2. DataFrame 2:**
 
 El segundo DataFrame se originó a partir de un archivo CSV descargado del INE. Contiene información acerca de la población total española, diferenciando por edades y sexo.
@@ -36,9 +39,19 @@ El segundo DataFrame se originó a partir de un archivo CSV descargado del INE. 
 El objetivo final que se pretende con esta tabla, en la que contamos con la información sobre la población total en España, es el de, combinando los valores de esta con los de la tabla anterior y posterior, poder estimar el número real de personas afectadas en España, y no tan solo un porcentaje, del cual no obtenemos un numero concreto. 
 Es decir, tras obtener un resultado porcentual, ajustarlo al número concreto que equivaldría con respecto a la población total española.
 
+![](https://github.com/karmelealonso/3.-project_etl/blob/main/imagenes/df_clean_imagenes/df2_clean.png)
+
+
 **3.3. DataFrames 3, 4 y 5:**
 
 Los DataFrames 3, 4 y 5 han sido obtenidos a través del scrapeo, por Beautiful Soup, de un artículo publicado por "Elsevier". Las tres tablas tienen un denominador común, a saber: el estudio de la resistencia a la insulina en la población española.
+
+![](https://github.com/karmelealonso/3.-project_etl/blob/main/imagenes/df_clean_imagenes/df3_clean.png)
+
+![](https://github.com/karmelealonso/3.-project_etl/blob/main/imagenes/df_clean_imagenes/df4_clean.png)
+
+![](https://github.com/karmelealonso/3.-project_etl/blob/main/imagenes/df_clean_imagenes/df5_clean.png)
+
 
 - # Paso 2: Transformación de los datos. Exploración y Limpieza.
 
@@ -54,6 +67,7 @@ En resumen, el enfoque de esta fase es explorar los datos contenidos en los arch
 
 Una vez que los datos han sido limpiados y transformados, pasamos a la construcción de la base de datos mediante MongoDB. Este proceso es esencial para garantizar la organización y accesibilidad de los datos.
 
+![](https://github.com/karmelealonso/3.-project_etl/blob/main/imagenes/colecciones_MongoDB.png)
 
 # Contenido del repositorio. 
 
